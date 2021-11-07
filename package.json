@@ -4,7 +4,7 @@
   "description": "Here you'll find little projects/files I'm writing while learning typescript.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mec-nyan/TypescriptBasics#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.14",
     "typescript": "^4.4.4"
   }
