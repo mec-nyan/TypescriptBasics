@@ -8,4 +8,3 @@ h1.innerText = title
 
 root.appendChild(h1)
 
-alert('hello')
