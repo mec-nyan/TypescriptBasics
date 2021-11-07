@@ -1,0 +1,23 @@
+{
+  "name": "TypescriptBasics",
+  "version": "1.0.0",
+  "description": "Here you'll find little projects/files I'm writing while learning typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mec-nyan/TypescriptBasics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mec-nyan/TypescriptBasics/issues"
+  },
+  "homepage": "https://github.com/mec-nyan/TypescriptBasics#readme",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
