@@ -4,10 +4,9 @@ const app = express()
 const port = 4040
 
 
-app.use(express.static('.'))
 
 app.get('/', (req, res) => {
-  return res.sendFile(path.join(__dirname + '/index.html'))
+  return res.send('Hello!')
 })
 
 app.listen(port, () => console.log(`App is listening on port ${port}`))
